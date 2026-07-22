@@ -1,0 +1,17 @@
+{
+  "bookNotFound": "Book not found",
+  "bookAdded": "Book added successfully",
+  "bookUpdated": "Book updated successfully",
+  "bookDeleted": "Book deleted successfully",
+
+  "bookNameRequired": "Book name is required",
+  "bookAuthorRequired": "Book author is required",
+  "bookPriceRequired": "Book price is required",
+  "bookLengthInvalid": "Length should be between 5 and 50 characters",
+  "bookStockRequired": "Book stock count is required",
+  "bookStockInvalid": "Stock count should be between 5 and 50",
+  "bookPriceInvalid": "Price should be between $1 and $10000",
+  "bookImageUrlInvalid": "Invalid image URL",
+
+  "invalidBookId": "Invalid book ID"
+}

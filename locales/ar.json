@@ -1,0 +1,16 @@
+{
+  "bookNotFound": "الكتاب غير موجود",
+  "bookAdded": "تمت إضافة الكتاب بنجاح",
+  "bookUpdated": "تم تحديث الكتاب بنجاح",
+  "bookDeleted": "تم حذف الكتاب بنجاح",
+
+  "bookNameRequired": "اسم الكتاب مطلوب",
+  "bookAuthorRequired": "اسم مؤلف الكتاب مطلوب",
+  "bookPriceRequired": "سعر الكتاب مطلوب",
+  "bookLengthInvalid": "يجب أن يكون الطول بين 5 و50 حرفًا",
+  "bookStockRequired": "عدد المخزون مطلوب",
+  "bookStockInvalid": "يجب أن يكون عدد المخزون بين 5 و50",
+  "bookPriceInvalid": "يجب أن يكون السعر بين 1 و10000 دولار",
+  "bookImageUrlInvalid": "رابط صورة غير صالح",
+  "invalidBookId": "معرّف الكتاب غير صالح"
+}
