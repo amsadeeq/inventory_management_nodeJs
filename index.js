@@ -1,7 +1,11 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
 const dns = require("node:dns").promises;
 
 // Language support and translation
@@ -32,6 +36,10 @@ app.use(middleware.handle(i18next));
 // });
 
 app.use(express.json());
+
+app.get("/", (req, res) => {
+  res.send("Inventory Management API is running");
+});
 
 // Middleware to use book routes
 app.use("/books", bookRoutes);
